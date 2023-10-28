@@ -29,8 +29,7 @@ async def start(b, m):
             caption="**Hello...⚡\n\nI Am A Simple Telegram File/Video To Permanent Download Link And Stream Link Generator Bot.**\n\n**Use /help For More Details\n\nSend Me Any Video/File To See My Power...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Madflix_Bots"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MadflixBots_Support")],
-                    [InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/CallAdminRobot")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Sujan_BotZ"), InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/Sujan_Ch")]
                 ]
             ),
             
@@ -60,7 +59,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**Your Link Is Generated...⚡\n\n📧 File Name :-\n{}\n {}\n\n💌 Download Link :- {}\n\n♻️ This Link Is Permanent And Won't Get Expired ♻️\n\n<b>❖ Madflix_Bots</b>**"
+        msg_text = "**Your Link Is Generated...⚡\n\n📧 File Name :-\n{}\n {}\n\n💌 Download Link :- {}\n\n♻️ This Link Is Permanent And Won't Get Expired ♻️\n\n<b>❖Sujan_BotZ</b>**"
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
@@ -84,8 +83,7 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Madflix_Bots"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MadflixBots_Support")],
-                    [InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/CallAdminRobot")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Sujan_BotZ"), InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/Sujan_Ch")]
                 ]
             ),
             
@@ -106,8 +104,7 @@ async def about_handler(bot, message):
 <b>╭━━━━━━━〔File To Link Bot〕</b>
 ┃
 ┣⪼<b>Bᴏᴛ Nᴀᴍᴇ</b> : File To Link
-┣⪼<b>Updates</b> : <a href='https://t.me/Madflix_Bots'>Bot Updates</a>
-┣⪼<b>Support</b> : <a href='https://t.me/MadflixBots_Support'>Bot Support</a>
+┣⪼<b>Updates</b> : <a href='https://t.me/Sujan_BotZ'>Bot Updates</a>
 ┣⪼<b>Server</b> : Heroku
 ┣⪼<b>Library</b> : Pyrogram
 ┣⪼<b>Language</b> : Python 3
@@ -117,8 +114,7 @@ async def about_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Madflix_Bots"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MadflixBots_Support")],
-                    [InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/CallAdminRobot")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/Sujan_BotZ"), InlineKeyboardButton("👨‍💻 DEVELOPER 👨‍💻", url="https://t.me/Sujan_Ch")]
                 ]
             ),
             
