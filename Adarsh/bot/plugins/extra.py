@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I Am Coded By [Madflix Bots](https://t.me/Madflix_Bots)",
+                    text="I Am Coded By [Sujan BotZ](https://t.me/Sujan_BotZ)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer 💻", url=f"https://t.me/CallAdminRobot")
+                                InlineKeyboardButton("Developer 💻", url=f"https://t.me/Sujan_Ch")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Join Now", url=f"https://t.me/Madflix_Bots")
+                                InlineKeyboardButton("Join Now", url=f"https://t.me/Sujan_BotZ")
                             ]
                         ]
                     ),
